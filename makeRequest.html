@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Make a Request</title>
+    <link rel="icon" href="icon/logo.png" type="icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <button class="back" onclick="location.href='userInterface.html'"><img src="icon/back.png" id="back">Back</button>
+
+        <div class="rrs">
+            <h4 align="center">REPAIR REQUEST FORM</h4>
+            <p align="center">REQUESTER INFORMATION</p>
+            
+             <label for="ID">Student/Staff ID:</label>
+             <input type="text" id="studstaID" name="ssid" required="required"><br>
+
+             <label for="firstn">First Name:</label>
+             <input type="text" id="fname" name="fn" required="required"><br>
+
+             <label for="lastn">Last Name:</label>
+             <input type="text" id="lname" name="ln" required="required"><br>
+
+             <label for="middlen">Middle Name:</label>
+             <input type="text" id="mname" name="mn"><br>
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required="required"><br>
+
+             <label for="dep_off">Department/Office:</label>
+             <select name="depOff" id="depOffice" required>
+                 <option value="BSIT">BSIT</option>
+                 <option value="BSABE">BSABE</option>
+                 <option value="BSED">BSED</option>
+                 <option value="BSNED">BSNED</option>
+                 <option value="BTVTED">BTVTED</option>
+                 <option value="OSAS">OSAS</option>
+                 <option value="OUR">OUR</option>
+             </select><br><br>
+
+            <p align="center">REPAIR REQUEST INFORMATION</p><br>
+            <label for="natureReq">Nature of Request:</label><br>
+
+            <input type="checkbox" id="carpma" name="carpma1" value="Carpentry/Masonry">
+            <label for="carpma1">Carpentry/Masonry</label>
+
+            <input type="checkbox" id="welding" name="welding1" value="Welding">
+            <label for="welding1">Welding</label>
+
+            <input type="checkbox" id="hauling" name="hauling1" value="Hauling">
+            <label for="hauling1">Hauling</label>
+
+            <input type="checkbox" id="plumbing" name="plumbing1" value="Plumbing">
+            <label for="plumbing1">Plumbing</label>
+
+            <input type="checkbox" id="landscaping" name="landscaping1" value="Landscaping">
+            <label for="landscaping1">Landscaping</label>
+
+            <input type="checkbox" id="electrical" name="electrical1" value="Electrical">
+            <label for="electrical1">Electrical</label>
+
+            <input type="checkbox" id="aircon" name="aircon1" value="Air-Condition">
+            <label for="aircon1">Air-Condition</label>
+
+            <label for="other1">Others:</label>
+            <input type="text" id="others" name="other1" ><br><br>
+
+            <label for="description">Detailed Description of the Issue:</label><br>
+            <input type="text-area" id="descrip" name="description" row="4"><br><br>
+
+            <label for="unit">Unit:</label>
+            <select class="unit">
+                 <option>Tagum Unit</option>
+                 <option>Mabini Unit</option>
+            </select><br>
+
+            <label for="photo">Photo:</label> 
+            <input type="file" id="img" name="picture" required="required"><br>
+
+            <label for="dateNoticed">Date the Issue was Noticed:</label> 
+            <input type="date" id="dateNoticed" name="dateNoticed" required="required"><br>
+
+            <button class="rrsDone">DONE</button>
+
+        </div>
+
+
+    <!-- <div>
+    <h4>GENERAL SERVICES UNIT</h4>
+    <p>University of Southeastern Philippines</p>
+    <p>Tagum-Mabini Campus</p>
+    </div>
+    <div>
+    <h4>ABOUT US</h4>
+    <p>Overview</p>
+    <p>Services</p>
+    <p>Contact Information</p>
+    <p>Team Overview</p>
+    </div>
+    <p>&copy; 2024 General Service Unit - All Rights Reserved</p>
+ -->
+</body>
+
+    
+</html>
